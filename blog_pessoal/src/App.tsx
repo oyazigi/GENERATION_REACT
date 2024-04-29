@@ -1,5 +1,5 @@
-import React from 'react';
-import Card from '../components/Card';
+import Card from '../components/Card/Card';
+import Task from "../components/Task/Task"
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
      <Card titulo = "React" descricao = "biblioteca com JS"/>
      <Card titulo = "Spring" descricao = "Framework de java"/>
+     <Task/>
     </>
   )
 }
